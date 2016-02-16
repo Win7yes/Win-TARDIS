@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models/wintardis/biglights"
+"$selfillum" "1"
+$translucent 1
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+$basetexture "models/wintardis/throttle_orange"
+$selfillum "1"
+$translucent 1
+}

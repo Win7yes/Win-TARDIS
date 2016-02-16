@@ -1,0 +1,13 @@
+{
+	"title"		:	"Win7's TARDIS",
+	"type"		:	"vehicle",
+	"tags"		:	[ "roleplay", "fun" ],
+	"ignore"	:
+	[
+		"*.md",
+		"*.txt",
+		"*.git*",
+		"*.fgd",
+		"*.psd"
+	]
+}

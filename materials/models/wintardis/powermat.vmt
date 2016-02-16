@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/wintardis/powermat"
+	"$surfaceprop" "Metal"
+	"$translucent" 0
+	$selfillum 1
+}
