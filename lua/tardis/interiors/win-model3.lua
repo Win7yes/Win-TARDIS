@@ -18,7 +18,7 @@ T.Interior={
 		brightness=5
 	},
 	Portal={
-		pos=Vector(450,0,37),
+		pos=Vector(450,0,40),
 		ang=Angle(0,180,0),
 		width=60,
 		height=91
@@ -39,14 +39,19 @@ T.Interior={
 		console={
 			model="models/win/tardis/console.mdl"
 		},
-		door=true,
+		door={
+			model="models/brun/extension/doors_int.mdl"
+		},
 		["win-rotor"]=true,
 	},
 }
 
 T.Exterior={
+	Model="models/brun/extension/tardis.mdl",
 	Parts={
-		door=true,
+		door={
+			model="models/brun/extension/doors_ext.mdl"
+		}
 	},
 }
 

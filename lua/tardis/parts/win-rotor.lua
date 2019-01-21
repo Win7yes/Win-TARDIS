@@ -1,6 +1,6 @@
 local PART={}
-PART.ID = "win7rotor"
-PART.Name = "win7rotor"
+PART.ID = "win-rotor"
+PART.Name = "win-rotor"
 PART.Model = "models/win/tardis/rotor.mdl"
 PART.AutoSetup = true
 PART.Collision = false
@@ -18,13 +18,16 @@ if CLIENT then
 		self.posepos=math.Approach(self.posepos,self.target,FrameTime()*self.speed)
 		self:SetPoseParameter("switch",self.posepos)
 		self:InvalidateBoneCache()
-		if ext:GetData("flight") or ext:GetData("teleport") or ext:GetData("vortex") then
+		if ext:GetData("flight") or ext:GetData("teleport") or ext:GetData("vortex") or ext:GetData("float") then
 			self.target = 1
 			if self.posepos==self.target then
 				self.posepos=0
 			end
 		else
 			if self.posepos==self.target then
+				self.target = 0
+				self.posepos = 0
+			else
 				self.target = 1
 			end
 		end

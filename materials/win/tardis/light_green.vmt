@@ -2,6 +2,5 @@
 {
 	"$basetexture" "win/tardis/light_green"
 	"$surfaceprop" "Glass"
-	"$translucent" 0
 	$selfillum 1
 }
