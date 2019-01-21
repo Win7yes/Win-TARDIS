@@ -2,7 +2,7 @@
 
 local T={}
 T.Base="base"
-T.Name="Win - Model 3"
+T.Name="WIN's Model-3"
 T.ID="win-model3"
 T.Interior={
 	Model="models/win/tardis/console_shell.mdl",
@@ -56,8 +56,11 @@ T.Exterior={
 	Model="models/brun/extension/tardis.mdl",
 	Parts={
 		door={
-			model="models/brun/extension/doors_ext.mdl"
-		}
+			model="models/brun/extension/doors_ext.mdl",
+		},
+		vortex={
+			model="models/doctorwho1200/mcgann/1996timevortex.mdl",
+		},
 	},
 }
 
