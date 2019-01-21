@@ -1,4 +1,4 @@
-#WIN's Model-3 TARDIS Desktop - For your Garry's Mod
+# WIN's Model-3 TARDIS Desktop - For your Garry's Mod
 Behold the third and (hopefully) final revision to my own TARDIS console room, the Win Model-3.
 Now with 70% more space for hanging light bulbs from ropes!
 
@@ -8,7 +8,7 @@ During 2017 I attempted to pick it back up, only to lose interest immediately af
 And in comes Model-3, the latest in the trilogy of "i'm bored ima make a tardis". 
 Thankfully I've planned ahead for this one, so I'm not as in the dark as I was back then when it comes to what I want for my console room.
 
-#Installation & Dependencies
+# Installation & Dependencies
 This is a [TARDIS Rewrite](https://github.com/MattJeanes/TARDIS/) extension. It's required for this to function at all.
 
 There are multiple ways to install this extension
