@@ -1,11 +1,25 @@
-#Win7's TARDIS Interior
-This is my custom TARDIS Console Room for Dr. Matt's TARDIS Rewrite GMod addon.
-It's in early development and I'm quite lazy soemtimes so it's kinda slow-progressing.
-#Installation
-You will need Dr. Matt's TARDIS Rewrite addon which can be found [here](https://github.com/MattJeanes/TARDIS/)
+#WIN's Model-3 TARDIS Desktop - For your Garry's Mod
+Behold the third and (hopefully) final revision to my own TARDIS console room, the Win Model-3.
+Now with 70% more space for hanging light bulbs from ropes!
 
-Either clone this repository with Git/Github Desktop in Your_Steam_Directory/SteamApps/common/GarrysMod/garrysmod/addons
+The first model was never finished, and it was in general a big mess behind the scenes.
+During 2017 I attempted to pick it back up, only to lose interest immediately afterwards, mostly because I didn't know what to make of it.
 
-Or click Download ZIP and extract Win7TARDIS-master in Your_Steam_Directory/SteamApps/common/GarrysMod/garrysmod/addons
+And in comes Model-3, the latest in the trilogy of "i'm bored ima make a tardis". 
+Thankfully I've planned ahead for this one, so I'm not as in the dark as I was back then when it comes to what I want for my console room.
 
-To get rid of it simply delete the Win7TARDIS folder from your addons folder.
+#Installation & Dependencies
+This is a [TARDIS Rewrite](https://github.com/MattJeanes/TARDIS/) extension. It's required for this to function at all.
+
+There are multiple ways to install this extension
+You can:
+
+Subscribe to the [Workshop version](https://steamcommunity.com/sharedfiles/filedetails/?id=576298727)
+
+or
+
+Clone this repository or download and extract the ZIP file, either way it must be placed under GarrysMod/garrysmod/addons/
+If you're here I expect you know how to install a legacy addon. If you, however, don't, I recommend you subscribe to the workshop version instead.
+
+Any issues related to this extension HAVE TO BE REPORTED HERE OR IN THE STEAM DISCUSSIONS. While it extends the rewrite, it's not a direct part of it.
+Issues that relate to the base addon (TARDIS Rewrite) should be opened [here](https://github.com/MattJeanes/TARDIS/issues)
