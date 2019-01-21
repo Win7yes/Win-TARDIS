@@ -30,7 +30,7 @@ T.Interior={
 		height=91
 	},
 	Fallback={
-		pos=Vector(-345,3.35,0),
+		pos=Vector(400,0,37),
 		ang=Angle(0,0,0)
 	},
 	Screens={
