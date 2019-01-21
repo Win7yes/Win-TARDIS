@@ -12,6 +12,12 @@ T.Interior={
 			volume=1	
 		},
 	},
+	Sounds={
+		Power={
+			On="wintardis/tardis_powerup.wav",
+			Off="wintardis/tardis_powerdown.wav"
+		}
+	},
 	Light={
 		color=Color(255, 222, 89),
 		pos=Vector(0,0,150),
