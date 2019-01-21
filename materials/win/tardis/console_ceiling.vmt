@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "win/tardis/console_ceiling"
+	"$surfaceprop" "Concrete"
+	"$nodecal" 1
+}

@@ -31,5 +31,4 @@ if SERVER then
 	end
 end
 
-//randomcommentwoooo
 TARDIS:AddPart(PART,e)

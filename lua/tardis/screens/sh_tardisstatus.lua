@@ -86,7 +86,7 @@ TARDIS:AddScreen("TARDIS Status", {menu=false}, function(self,ext,int,frame,scre
 		end
 	end
 	
-	/*local th = vgui.Create("DLabel",frame)
+	local th = vgui.Create("DLabel",frame)
 	th:SetTextColor(Color(0,0,0))
 	th:SetText("Placeholder (Shouldn't be seen)")
 	th:SetFont("TARDIS-Med")
@@ -97,7 +97,7 @@ TARDIS:AddScreen("TARDIS Status", {menu=false}, function(self,ext,int,frame,scre
 	th:DoLayout()
 	
 	th.Think = function(th)
-		th:SetText("Health: "..tostring(int:Health()))
-	end*/
+		th:SetText("Health: "..tostring(ext:GetData("health-val")))
+	end
 	
 end )

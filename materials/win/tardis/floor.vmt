@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "win/tardis/floor"
+	"$surfaceprop" "Computer"
+	"$translucent" 0
+}

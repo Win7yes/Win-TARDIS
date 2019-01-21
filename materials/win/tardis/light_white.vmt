@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "win/tardis/light_white"
+	"$surfaceprop" "Glass"
+	"$translucent" 0
+	$selfillum 1
+}

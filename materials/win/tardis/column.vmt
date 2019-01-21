@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "win/tardis/column"
+	"$surfaceprop" "Concrete"
+	"$nodecal" 1
+}
