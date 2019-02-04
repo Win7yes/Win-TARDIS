@@ -14,8 +14,8 @@ T.Interior={
 	},
 	Sounds={
 		Power={
-			On="wintardis/tardis_powerup.wav",
-			Off="wintardis/tardis_powerdown.wav"
+			On="win/tardis/tardis_powerup.wav",
+			Off="win/tardis/tardis_powerdown.wav"
 		}
 	},
 	Light={
@@ -49,6 +49,7 @@ T.Interior={
 			model="models/brun/extension/doors_int.mdl"
 		},
 		["win-rotor"]=true,
+		["win-throttle"]=true,
 	},
 }
 
@@ -62,6 +63,12 @@ T.Exterior={
 			model="models/doctorwho1200/mcgann/1996timevortex.mdl",
 		},
 	},
+	Sounds={
+		Teleport={
+			mat="win/tards/mat.wav",
+			demat="win/tardis/demat.wav"
+		}
+	}
 }
 
 TARDIS:AddInterior(T)

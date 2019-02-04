@@ -1,6 +1,6 @@
 local PART={}
-PART.ID = "win7throttle"
-PART.Name = "win7throttle"
+PART.ID = "win-throttle"
+PART.Name = "win-throttle"
 PART.Model = "models/wintardis/tardisthrottle.mdl"
 PART.AutoSetup = true
 PART.Collision = false
@@ -11,7 +11,7 @@ PART.AnimateSpeed = 2.0
 if SERVER then
 	function PART:Use(ply)
 		if ply:IsPlayer() then
-			self:EmitSound("wintardis/tardis_throttle.wav")
+			self:EmitSound("win/tardis/tardis_throttle.wav")
 			if not self.exterior:GetData("vortex") and not self.exterior:GetData("teleport") then
 				timer.Create("w7tdmat",0.27,1,function()
 					self.exterior:Demat()
