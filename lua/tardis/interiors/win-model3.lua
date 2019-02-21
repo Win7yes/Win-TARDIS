@@ -65,7 +65,7 @@ T.Exterior={
 	},
 	Sounds={
 		Teleport={
-			mat="win/tards/mat.wav",
+			mat="win/tardis/mat.wav",
 			demat="win/tardis/demat.wav"
 		}
 	}
